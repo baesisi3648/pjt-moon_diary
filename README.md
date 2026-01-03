@@ -3,9 +3,7 @@
 > 밤하늘 감성의 일기장 앱 - AI와 대화하며 오늘 하루를 기록해요
 
 <p align="center">
-  <img src="screenshots/main_screen.png" width="250" alt="메인 화면"/>
-  <img src="screenshots/chat_screen.png" width="250" alt="대화 화면"/>
-  <img src="screenshots/calendar_screen.png" width="250" alt="캘린더 화면"/>
+  <img src="screenshots/app_screenshot.png" width="300" alt="Moon Diary 앱 화면"/>
 </p>
 
 ---
