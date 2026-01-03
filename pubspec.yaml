@@ -1,0 +1,43 @@
+name: moon_diary
+description: "A dreamy night-themed diary app with warm F-type emotional comments"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Local storage
+  hive: 2.2.3
+  hive_flutter: 1.1.0
+  
+  # State management
+  provider: 6.1.5+1
+  
+  # Date/Calendar
+  table_calendar: ^3.1.2
+  intl: ^0.20.0
+  
+  # HTTP for API calls
+  http: 1.5.0
+  
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icons/
+    - .env
